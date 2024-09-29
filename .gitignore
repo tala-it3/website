@@ -1,0 +1,15 @@
+# Build
+_site
+
+# SASS
+.sass-cache
+
+# Jekyll
+.jekyll-cache
+.jekyll-metadata
+
+# Gem Packages
+vendor
+
+# Gem
+Gemfile.lock
