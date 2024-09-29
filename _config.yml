@@ -15,4 +15,4 @@ plugins:
 # Github
 domain: tala.soon.it
 url: https://tala.soon.it
-baseurl: /tala/
+baseurl: /
