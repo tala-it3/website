@@ -1,6 +1,9 @@
 # Build
 _site
 
+# Examples
+Examples
+
 # SASS
 .sass-cache
 

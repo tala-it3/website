@@ -1,3 +1,4 @@
 ---
-layout: home
+layout: main
 ---
+Example website
