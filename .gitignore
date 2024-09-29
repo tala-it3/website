@@ -13,3 +13,4 @@ vendor
 
 # Gem
 Gemfile.lock
+gemset.nix
