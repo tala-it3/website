@@ -1,3 +1,3 @@
 # TALA
 
-Simple webstie
+Simple Website
