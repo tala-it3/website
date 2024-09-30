@@ -7,3 +7,12 @@ description: Cybersecurity Consultancy Firm
 domain: tala.soon.it
 url: https://tala.soon.it
 baseurl: /
+
+# Exclude Files
+exclude:
+  - "*.nix"
+  - "*.bash"
+  - "*.md"
+  - Gemfile*
+  - CNAME
+  - vendor
