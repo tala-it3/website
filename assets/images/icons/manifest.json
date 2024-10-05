@@ -1,6 +1,9 @@
+---
+layout: none
+---
 {
-    "name": "Tala",
-    "short_name": "Tala",
+    "name": "{{ site.name }}",
+    "short_name": "{{ site.name }}",
     "icons": [
       {
         "src": "icon-192.png",
@@ -14,7 +17,7 @@
       }
     ],
     "start_url": "/",
-    "theme_color": "#2f2f2f",
-    "background_color": "#2f2f2f",
+    "theme_color": "{{ site.colour }}",
+    "background_color": "{{ site.colour }}",
     "display": "standalone"
   }
