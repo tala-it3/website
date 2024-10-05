@@ -1,4 +1,5 @@
 ---
+title: About
 layout: main
 ---
 <p class="my-5">Founded in the lovely city of Cork, Ireland, TALA emerged from a passion for safeguarding digital environments. Established by a group of cybersecurity students turned professionals with extensive backgrounds in ethical hacking, digital forensics, and network defence.</p>
