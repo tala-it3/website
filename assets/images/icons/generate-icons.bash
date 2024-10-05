@@ -22,7 +22,7 @@ SIZES=( 16 32 180 192 512 )
 # Iterate the sizes
 for size in "${SIZES[@]}"; do
     # Convert
-    "$INKSCAPE_TOOL" -w "$size" -h "$size" --background none "$DIRECTORY_NOW/$INPUT_FILE" -o "$DIRECTORY_NOW/$NAME_PREFIX-$size.png"
+    "$INKSCAPE_TOOL" -w "$size" -h "$size" "$DIRECTORY_NOW/$INPUT_FILE" -o "$DIRECTORY_NOW/$NAME_PREFIX-$size.png"
 done
 
 # Finally the .ico
