@@ -3,6 +3,10 @@ name: TALA
 author: IT3
 description: Cybersecurity Consultancy Firm
 
+# Theming
+colour: "#2f2f2f"
+inverse: "#d0d0d0"
+
 # Github
 domain: tala.soon.it
 url: https://tala.soon.it
