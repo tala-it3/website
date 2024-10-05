@@ -2,22 +2,30 @@
 title: Contact
 layout: main
 ---
-<form>
+<form method="POST" action="https://formsubmit.co/{{ site.email }}">
     <!-- Name input -->
     <div data-mdb-input-init class="form-outline mb-4">
-        <input type="text" id="form4Example1" class="form-control" />
-        <label class="form-label" for="form4Example1">Name</label>
+        <label class="form-label" for="form-name">Name</label>
+        <input type="text" name="name" id="form-name" class="form-control" required/>
     </div>
     <!-- Email input -->
     <div data-mdb-input-init class="form-outline mb-4">
-        <input type="email" id="form4Example2" class="form-control" />
-        <label class="form-label" for="form4Example2">Email</label>
+        <label class="form-label" for="form-email">Email</label>
+        <input type="email" name="email" id="form-email" class="form-control" required/>
+    </div>
+    <!-- Phone -->
+    <div data-mdb-input-init class="form-outline mb-4">
+        <label class="form-label" for="form-phone">Phone</label>
+        <input type="tel" maxLength="10" minLength="10" name="form-phone" id="phone" class="form-control" pattern="08[3679][0-9]{7}">
     </div>
     <!-- Message input -->
     <div data-mdb-input-init class="form-outline mb-4">
-        <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-        <label class="form-label" for="form4Example3">Message</label>
+        <label class="form-label" for="form-message">Message</label>
+        <textarea name="message" id="form-message" rows="4" class="form-control" required></textarea>
     </div>
+    <!-- Form control -->
+    <input type="hidden" name="_subject" value="Website Form">
+    <input type="hidden" name="_next" value="{{ site.url }}/contact-success.html">
     <!-- Submit button -->
-    <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button>
+    <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4">Send</button>
 </form>
