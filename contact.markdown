@@ -16,7 +16,7 @@ layout: main
     <!-- Phone -->
     <div data-mdb-input-init class="form-outline mb-4">
         <label class="form-label" for="form-phone">Phone</label>
-        <input type="tel" maxLength="10" minLength="10" name="phone" id="form-phone" class="form-control" pattern="08[3679][0-9]{7}">
+        <input type="tel" maxLength="10" minLength="10" name="phone" id="form-phone" class="form-control" pattern="0[0-9]{9}">
     </div>
     <!-- Message input -->
     <div data-mdb-input-init class="form-outline mb-4">
