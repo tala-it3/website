@@ -41,10 +41,11 @@
     <!-- Colour Toggler -->
     {% include changer.html %}
 
+    <!-- Icons -->
+    {% include icons.html %}
+
     <!-- Header -->
-    <header>
-        {% include navigation.html %}
-    </header>
+    {% include header.html %}
 
     <!-- Main -->
     <main class="flex-shrink-0">
@@ -54,11 +55,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer mt-auto py-3 bg-body-tertiary">
-        <div class="container">
-            <p>{{ site.name }} - {{ site.time | date: '%Y' }}</p>
-        </div>
-    </footer>
+    {% include footer.html %}
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
