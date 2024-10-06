@@ -27,5 +27,5 @@ layout: main
     <input type="hidden" name="_subject" value="Website Form">
     <input type="hidden" name="_next" value="{{ site.url }}/contact-success.html">
     <!-- Submit button -->
-    <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+    <button data-mdb-ripple-init type="submit" class="btn {{ site.data.visual.button }} btn-block mb-4">Send</button>
 </form>
