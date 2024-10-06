@@ -1,14 +1,18 @@
 ---
 layout: main
 ---
-<div class="container text-center">
+<div class="container text-center pb-5 mb-5">
         <h1 class="my-5">{{ site.name }}</h1>
         <svg class="bi" height=90 aria-hidden="true"><use xlink:href="#logo"></use></svg>
     </div>
-{% for image in site.static_files %} {% if image.path contains "/assets/images/misc" %}
-    <div class="px-4 py-5 my-5 text-center">
-        <div class="col-lg-6 mx-auto">
-            <img src="{{ image.path }}" width="500rem" class="rounded mx-auto d-block" alt="Information Image">
+    {% for image in site.static_files %} {% if image.path contains "/assets/images/misc/info" %}
+    <div class="px-4 py-2 m-3 text-center">
+        <div class="mx-auto">
+            <img src="{{ image.path }}" width="700rem" class="rounded mw-100 mx-auto d-block{% if image.path contains '/assets/images/misc/info-dynamic' %} inverter{% endif %}" alt="Information Image">
         </div>
     </div>
-{% endif %} {% endfor %}
+    {% endif %} {% endfor %}
+    <div class="container text-center py-5 my-5">
+        <h1 class="my-5">{{ site.name }}</h1>
+        <svg class="bi" height=90 aria-hidden="true"><use xlink:href="#logo"></use></svg>
+    </div>

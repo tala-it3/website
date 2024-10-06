@@ -20,6 +20,20 @@
 }
 
 /*
+ * Image Inverter
+ */
+[data-bs-theme=dark] img.inverter {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+[data-bs-theme=light] img.inverter {
+  mix-blend-mode: darken;
+}
+img.inverter {
+  mix-blend-mode: screen;
+}
+
+/*
  * Default
  */
 
