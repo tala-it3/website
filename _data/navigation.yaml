@@ -1,0 +1,15 @@
+- name: Home
+  path: /
+  disabled: false
+
+- name: Resources
+  path: /resources.html
+  disabled: true
+
+- name: About
+  path: /about.html
+  disabled: false
+
+- name: Contact
+  path: /contact.html
+  disabled: false
