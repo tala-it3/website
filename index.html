@@ -23,7 +23,7 @@ layout: main
     {% for image in site.static_files %} {% if image.path contains "/assets/images/misc/info" %}
     <div class="px-4 py-2 m-3 my-5 text-center bg-body-secondary rounded">
         <div class="mx-auto">
-            <img src="{{ image.path }}" width="500" class="rounded mw-100 mx-auto d-block{% if image.path contains '/assets/images/misc/info-dynamic' %} inverter{% endif %}" alt="Information Image">
+            <img src="{{ image.path }}" height="350" class="rounded mw-100 mx-auto d-block{% if image.path contains '/assets/images/misc/info-dynamic' %} inverter{% endif %}" alt="Information Image">
         </div>
     </div>
     {% endif %} {% endfor %}
