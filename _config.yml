@@ -3,10 +3,6 @@ name: TALA
 author: IT3
 description: Cybersecurity Consultancy Firm
 
-# Theming
-colour: "#2f2f2f"
-inverse: "#d0d0d0"
-
 # References
 youtube: "https://www.youtube.com/@TalaSecurity"
 
