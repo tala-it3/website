@@ -1,18 +1,35 @@
 ---
 layout: main
 ---
-<div class="container text-center pb-5 mb-5">
-        <h1 class="my-5">{{ site.name }}</h1>
-        <svg class="bi" height=90 aria-hidden="true"><use xlink:href="#logo"></use></svg>
+<div class="container text-center">
+        <!--
+        <div>
+            <h1 class="display-3 my-5">{{ site.name }}</h1>
+            <svg class="bi" height=170 aria-hidden="true"><use xlink:href="#logo"></use></svg>
+        </div>
+        -->
+        <div class="h5 pb-5 mb-5">
+            <p class="mb-5">Hi</p>
+            <p>We are a cyber security consultancy company from Cork</p>
+            <p>If you are interested in our services</p>
+            <p>Here are some statistics that you might find interesting</p>
+        </div>
+        <!--
+        <div class="my-5">
+            <svg class="bi" height=45 aria-hidden="true"><use xlink:href="#arrow"></use></svg>
+        </div>
+        -->
     </div>
     {% for image in site.static_files %} {% if image.path contains "/assets/images/misc/info" %}
-    <div class="px-4 py-2 m-3 text-center">
+    <div class="px-4 py-2 m-3 my-5 text-center bg-body-secondary rounded">
         <div class="mx-auto">
-            <img src="{{ image.path }}" width="700rem" class="rounded mw-100 mx-auto d-block{% if image.path contains '/assets/images/misc/info-dynamic' %} inverter{% endif %}" alt="Information Image">
+            <img src="{{ image.path }}" width="500" class="rounded mw-100 mx-auto d-block{% if image.path contains '/assets/images/misc/info-dynamic' %} inverter{% endif %}" alt="Information Image">
         </div>
     </div>
     {% endif %} {% endfor %}
-    <div class="container text-center py-5 my-5">
-        <h1 class="my-5">{{ site.name }}</h1>
-        <svg class="bi" height=90 aria-hidden="true"><use xlink:href="#logo"></use></svg>
+    <div class="container text-center pt-5 mt-5">
+        <div class="h5 pb-5 mb-5">
+            <p>Please don't hesitate to contact us</p>
+            <a class="btn {{ site.data.visual.button }} mt-5" href="/contact" role="button">Contact Us Here</a>
+        </div>
     </div>

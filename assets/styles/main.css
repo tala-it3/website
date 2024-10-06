@@ -20,6 +20,14 @@
 }
 
 /*
+ * Button Highlight
+ */
+.dropdown-item.active, .dropdown-item:active {
+  color: var(--bs-body-bg) !important;
+  background-color: var(--bs-info) !important;
+}
+
+/*
  * Image Inverter
  */
 [data-bs-theme=dark] img.inverter {
