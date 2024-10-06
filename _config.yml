@@ -18,6 +18,11 @@ domain: tala.soon.it
 url: https://tala.soon.it
 baseurl: /
 
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 # Exclude Files
 exclude:
   - "*.nix"
