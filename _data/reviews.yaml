@@ -4,8 +4,8 @@ reviews:
   - name: John Doe
     rate: 5
     date: 2024-09-12
-    comment: "TALA's cybersecurity training is exceptional! The content is comprehensive, covering the latest threats and real-world scenarios. I feel much more confident in securing my company's network now."
-    company: "Freelancer"
+    comment: "TALA's cybersecurity training is exceptional! The content is comprehensive, covering the latest threats and real-world scenarios."
+    company: "Cisco"
 
   - name: Sarah Mitchell
     rate: 4
@@ -19,16 +19,10 @@ reviews:
     comment: "Amazing experience with TALA. Their training on social engineering threats was eye-opening, and they provided excellent resources for further learning."
     company: "Microsoft"
 
-  - name: Emily Wong
-    rate: 3
-    date: 2024-10-05
-    comment: "The course content was good but a bit too fast-paced. I struggled to keep up with some sections. It could be more beginner-friendly."
-    company: "Cisco"
-
   - name: Michael Green
     rate: 5
     date: 2024-06-10
-    comment: "TALA's training is top-notch! The instructors were clear, engaging, and the material was presented in a very digestible format. Highly recommend for anyone in cybersecurity."
+    comment: "TALA's training is top-notch! The instructors were clear, engaging, and the material was presented in a very digestible format."
     company: "Amazon"
 
   - name: Lisa Roberts
@@ -46,7 +40,7 @@ reviews:
   - name: Priya Gupta
     rate: 4
     date: 2024-09-22
-    comment: "The training was insightful, though I found some of the topics a little advanced for my current knowledge level. Still, a great resource for professionals."
+    comment: "The training was insightful, though I found some of the topics a little advanced for my current knowledge level. Still, a great resource to have."
     company: "Salesforce"
 
   - name: Robert Lewis
