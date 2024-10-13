@@ -1,0 +1,62 @@
+columns: 3
+
+reviews:
+  - name: John Doe
+    rate: 5
+    date: 2024-09-12
+    comment: "TALA's cybersecurity training is exceptional! The content is comprehensive, covering the latest threats and real-world scenarios. I feel much more confident in securing my company's network now."
+    company: "Freelancer"
+
+  - name: Sarah Mitchell
+    rate: 4
+    date: 2024-08-25
+    comment: "Great training, but I wish there was more focus on hands-on exercises. However, the theoretical part was well-done and instructors were very knowledgeable."
+    company: "Google"
+
+  - name: Ahmed Khan
+    rate: 5
+    date: 2024-07-15
+    comment: "Amazing experience with TALA. Their training on social engineering threats was eye-opening, and they provided excellent resources for further learning."
+    company: "Microsoft"
+
+  - name: Emily Wong
+    rate: 3
+    date: 2024-10-05
+    comment: "The course content was good but a bit too fast-paced. I struggled to keep up with some sections. It could be more beginner-friendly."
+    company: "Cisco"
+
+  - name: Michael Green
+    rate: 5
+    date: 2024-06-10
+    comment: "TALA's training is top-notch! The instructors were clear, engaging, and the material was presented in a very digestible format. Highly recommend for anyone in cybersecurity."
+    company: "Amazon"
+
+  - name: Lisa Roberts
+    rate: 4
+    date: 2024-08-30
+    comment: "I enjoyed the training, especially the modules on ransomware and phishing attacks. Some sections could use a bit more depth, but overall, it was very useful."
+    company: "IBM"
+
+  - name: Carlos Fernandez
+    rate: 5
+    date: 2024-07-20
+    comment: "One of the best cybersecurity trainings I've attended! TALA's team clearly knows their stuff, and the interactive sessions were particularly helpful."
+    company: "Facebook (Meta)"
+
+  - name: Priya Gupta
+    rate: 4
+    date: 2024-09-22
+    comment: "The training was insightful, though I found some of the topics a little advanced for my current knowledge level. Still, a great resource for professionals."
+    company: "Salesforce"
+
+  - name: Robert Lewis
+    rate: 5
+    date: 2024-10-01
+    comment: "Fantastic training! The real-world examples of data breaches and attack vectors really brought the concepts to life. TALA knows how to make cybersecurity accessible and interesting."
+    company: "Deloitte"
+
+  - name: Hannah Lee
+    rate: 4
+    date: 2024-09-10
+    comment: "The course was well-structured, but I wish there were more practice labs. Overall, a great training experience with excellent support from the trainers."
+    company: "Apple"

@@ -1,6 +1,7 @@
 ---
 layout: main
 ---
+<!-- Information -->
 <div class="container text-center">
         <!--
         <div>
@@ -24,6 +25,7 @@ layout: main
         </div>
         -->
     </div>
+    <!-- Infographics -->
     {% for image in site.static_files %} {% if image.path contains "/assets/images/misc/info" %}
     <div class="px-4 py-2 m-3 my-5 text-center bg-body-secondary rounded">
         <div class="mx-auto">
@@ -31,7 +33,26 @@ layout: main
         </div>
     </div>
     {% endif %} {% endfor %}
+    <!-- Testimonials -->
+    <div class="my-5 py-5 text-center">
+        <h2 class="my-5 py-5">Testimonials</h3>
+        {% assign lastReference = site.data.reviews.columns | minus: 1 %}
+            <!-- Iterate over testimonials -->
+        {% for review in site.data.reviews.reviews %}
+            {% assign remainder = forloop.index0 | modulo: site.data.reviews.columns %}
+            {% assign remainderLast = remainder | minus: lastReference %}
+            {% if remainder == 0 or forloop.first %}<div class="row">{%- endif -%}
+                <div class="col-lg-4 p-5">
+                <h4>{{ review.name }}</h2>
+                <p>Works @ {{ review.company }}</p>
+                <p>{{ review.comment }}</p>
+            </div>
+            {% if remainderLast == 0 or forloop.last %}</div>{%- endif -%}
+        {% endfor %}
+    </div>
+    <!-- Contact Us -->
     <div class="container text-center pt-5 mt-5">
+        <h2 class="my-5 mt-3 pb-5">Contact</h3>
         <div class="h5 pb-5 mb-5">
             <p>Please don't hesitate to contact us</p>
             <a class="btn {{ site.data.visual.button }} mt-5" href="/contact" role="button">Contact Us Here</a>

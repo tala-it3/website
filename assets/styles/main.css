@@ -49,6 +49,10 @@ main > .container {
   padding: 60px 15px 0;
 }
 
+.row {
+  justify-content: center;
+}
+
 .disclaimer {
   color: #ce3838;
 }
