@@ -49,6 +49,10 @@ main > .container {
   padding: 60px 15px 0;
 }
 
+.disclaimer {
+  color: #ce3838;
+}
+
 .navbar {
   margin-top: 1rem;
   margin-bottom: 1rem;
