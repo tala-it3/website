@@ -2,7 +2,7 @@
 layout: main
 ---
 <!-- Information -->
-<div class="container text-center">
+    <div class="container text-center">
         <!--
         <div>
             <h1 class="display-3 my-5">{{ site.name }}</h1>
@@ -14,10 +14,6 @@ layout: main
             <p>We are a cyber security consultancy company from Cork</p>
             <p>If you are interested in our services</p>
             <p>Here are some statistics that you might find interesting</p>
-        </div>
-        <div class="h5 pb-5 mb-5 disclaimer">
-            <p class="mb-4">Disclaimer</p>
-            <p>We are a fictitious company for college group project assignment</p>
         </div>
         <!--
         <div class="my-5">
@@ -35,7 +31,7 @@ layout: main
     {% endif %} {% endfor %}
     <!-- Testimonials -->
     <div class="my-5 mb-2 py-5 text-center">
-        <h2 class="my-3 py-5">Testimonials</h3>
+        <h4 class="my-3 py-5">Testimonials</h4>
         {% assign lastReference = site.data.reviews.columns | minus: 1 %}
             <!-- Iterate over testimonials -->
         {% for review in site.data.reviews.reviews %}
@@ -43,7 +39,7 @@ layout: main
             {% assign remainderLast = remainder | minus: lastReference %}
             {% if remainder == 0 or forloop.first %}<div class="row">{%- endif -%}
                 <div class="col-lg-4 p-5">
-                <h4>{{ review.name }}</h2>
+                <h4>{{ review.name }}</h4>
                 <p>From {{ review.company }}</p>
                 <p>{{ review.comment }}</p>
             </div>
@@ -52,7 +48,7 @@ layout: main
     </div>
     <!-- Contact Us -->
     <div class="container text-center pt-5 mt-2">
-        <h2 class="my-5 pb-5">Contact</h3>
+        <h2 class="my-5 pb-5">Contact</h2>
         <div class="h5 pb-5 mb-5">
             <p>Please don't hesitate to contact us</p>
             <a class="btn {{ site.data.visual.button }} mt-5" href="/contact" role="button">Contact Us Here</a>
