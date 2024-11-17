@@ -15,14 +15,14 @@ layout: main
         </div>
     </div>
     <!-- Infographics -->
-    <div class="px-4 m-3 my-5 text-center">
+    <div class="p-4 text-center">
         <button class="btn btn-glisten {{ site.data.visual.button }} btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#show-infographics" aria-expanded="false" aria-controls="show-infographics">
         Here is some relevant information about cyber attacks
         </button>
     </div>
     <div class="collapse" id="show-infographics">
         {% for image in site.static_files %} {% if image.path contains "/assets/images/misc/info" %}
-        <div class="px-4 py-2 m-3 my-5 text-center bg-body-secondary rounded">
+        <div class="p-2 my-4 text-center bg-body-secondary rounded">
             <div class="mx-auto">
                 <img src="{{ image.path }}" width="550" class="rounded mw-100 mx-auto d-block{% if image.path contains '/assets/images/misc/info-dynamic' %} inverter{% endif %}" alt="Information Image">
             </div>
@@ -30,7 +30,7 @@ layout: main
         {% endif %} {% endfor %}
     </div>
     <!-- Testimonials -->
-    <div class="px-4 py-2 m-3 my-5 text-center">
+    <div class="p-4 text-center">
         <button class="btn btn-glisten {{ site.data.visual.button }} btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#show-testimonials" aria-expanded="false" aria-controls="show-testimonials">
         And here are a few testimonials
         </button>
@@ -53,6 +53,6 @@ layout: main
         </div>
     </div>
     <!-- Contact Us -->
-    <div class="px-4 py-2 m-3 my-5 text-center">
+    <div class="p-4 text-center">
         <a class="btn btn-glisten {{ site.data.visual.button }} btn-lg" href="/contact" role="button">Contact Us Here</a>
     </div>
