@@ -20,6 +20,14 @@
 }
 
 /*
+ * Force empty scroll bar
+ */
+
+html {
+  overflow-y: scroll !important;
+}
+
+/*
  * Button Highlight
  */
 .dropdown-item.active, .dropdown-item:active {
