@@ -4,7 +4,7 @@
 
 - name: Resources
   path: /resources.html
-  disabled: true
+  disabled: false
 
 - name: About
   path: /about.html

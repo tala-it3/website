@@ -1,0 +1,39 @@
+controls: "1"
+
+list:
+
+  - name: Understanding Phone Spoofing
+    link: 54neZ1eC5n4
+    description: >
+      In this video, we break down the concept of phone spoofing,
+      a deceptive practice where scammers manipulate caller ID to disguise their identity.
+      Learn how it works, common signs to watch for,
+      and essential tips to protect yourself from falling victim to these fraudulent calls.
+      Stay informed and safeguard your personal information!
+
+  - name: Risks of Public WiFi
+    link: y_pLiwUVW-0
+    description: >
+      Discover the hidden dangers of using public WiFi in this insightful video.
+      We explore how hackers exploit unsecured networks to steal personal information,
+      intercept sensitive data, and compromise your devices.
+      Learn practical tips to stay safe while browsing on public WiFi,
+      including using VPNs and avoiding risky behaviors. Protect your online privacy today!
+
+  - name: Phishing Attacks
+    link: RhNXLdArmjc
+    description: >
+      In this video, we delve into phishing attacks,
+      a common cybercrime where scammers trick you into revealing sensitive
+      information like passwords or financial details. Learn how to recognize phishing emails,
+      fake websites, and suspicious links, along with best practices to keep your data secure.
+      Stay vigilant and outsmart the scammers!
+
+  - name: Understanding the CIA Triad
+    link: XWboXfK5pFA
+    description: >
+      In this video, we explore the CIA Triad—Confidentiality, Integrity,
+      and Availability—the foundational model of cybersecurity.
+      Understand how these three principles work together to protect information,
+      prevent unauthorized access, and ensure data reliability.
+      Perfect for beginners and professionals looking to strengthen their cybersecurity knowledge!
