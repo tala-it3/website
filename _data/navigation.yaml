@@ -6,6 +6,10 @@
   path: /resources.html
   disabled: false
 
+- name: Courses
+  path: /courses.html
+  disabled: true
+
 - name: About
   path: /about.html
   disabled: false
