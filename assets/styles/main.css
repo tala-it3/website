@@ -127,6 +127,10 @@ main > .container {
   -webkit-overflow-scrolling: touch;
 }
 
+ul li {
+  padding: .5rem;
+}
+
 /*
  * Theme Changer
  */
