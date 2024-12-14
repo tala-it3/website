@@ -8,7 +8,7 @@
 
 - name: Courses
   path: /courses.html
-  disabled: true
+  disabled: false
 
 - name: About
   path: /about.html

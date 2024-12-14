@@ -1,0 +1,16 @@
+---
+layout: main
+---
+<div class="p-4 text-center">
+    <p>Here are all the courses that we provide</p>
+</div>
+<!-- Iterate for each course -->
+{% for course in site.pages %}
+    {% if course.path contains "courses/" %}
+    <div class="p-4 text-center">
+        <a href="{{ course.url }}" class="btn btn-glisten {{ site.data.visual.button }} btn-lg" type="button">
+        {{ course.title }}
+        </a>
+    </div>
+    {% endif %}
+{% endfor %}
